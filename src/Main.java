@@ -3,22 +3,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String [] args){
-		int primero;
-		int segundo=0;
-		int resultado;
-		String operador=null;
-		char op;
-		Nodo comienzo=new Nodo(0,null);
-		Nodo actual=new Nodo(0,null);
-		Scanner entrada=new Scanner(System.in);
-		String operacion=entrada.nextLine();
 		
-		StringTokenizer token=new StringTokenizer(operacion," ");
-		
-		String p = token.nextToken();
-		
-		primero=Integer.parseInt(p);
-		resultado=primero;
 		
 		Boolean flag=false;
 		
