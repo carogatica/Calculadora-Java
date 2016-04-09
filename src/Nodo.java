@@ -1,7 +1,7 @@
 
 public class Nodo {
-	private int numero;
-	private String operador;
+	//private int numero;
+	//private String operador;
 	private Nodo siguiente;
 	
 	public Nodo(int numero, String operador){
